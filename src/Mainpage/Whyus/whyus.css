@@ -1,0 +1,43 @@
+.h1why{
+    color: rgba(255, 103, 0, 0.932);
+  padding: 20px;
+ border-bottom: rgb(12, 137, 168);
+ border-style:groove;
+text-align: center;
+
+}
+.hwhy .card{
+ width: 16rem;
+ 
+}
+.whybody{
+    background-color: rgba(240, 237, 234, 0.603);
+
+}
+.hwhy img{
+    margin: auto;
+}
+.hwhy .col{
+    margin: auto;
+    
+}
+.hwhy .card{
+    background-color: transparent;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    
+ 
+}
+
+.hwhy .card-body{
+    margin: auto;
+  
+    background-color:lavenderblush;
+    font-family:monospace;
+    color: black;
+}
+.hwhy .card-title{
+    color: rgba(255, 103, 0, 0.93);
+    margin-bottom: 12px;
+    text-align: center;
+}

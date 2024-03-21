@@ -1,0 +1,91 @@
+.bodymain{
+     background-repeat: no-repeat;
+    background-size: cover; /*// Optionally, add this line if you want the image to cover the entire div */
+     width: 100vw;/* Set a width for the div to ensure it's visible*/
+    height: 100vh ; 
+   background-image:  linear-gradient(to bottom, rgba(150, 190, 228, 0.562), rgba(70, 48, 64, 0.73)),
+    url('https://images.unsplash.com/photo-1542810634-71277d95dcbb?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.logo{
+height: auto;
+width: 70px;
+}
+.quote{
+    width:600px;
+    margin: 80px auto ;
+     text-align: center;
+     
+} 
+.quote h1{
+    color:	rgb(0, 255, 230);
+   font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    
+}
+.quote h3{
+    color: white;
+ 
+}
+
+.quote button {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    overflow: hidden; /* Remove the conditional statement */
+  
+    text-decoration: none;
+  
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 2em;
+  
+    padding: 0.5em 1em;
+  
+    color: rgba(255, 103, 0, 0.932);
+  
+    border: 0.15em solid rgb(235, 117, 74);
+    border-radius: 1.4em; /* Combine calculations for simpler syntax */
+  
+    transition: 4s;
+  
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      top: -1.5em;
+      z-index: -1;
+      width: 200%;
+      aspect-ratio: 1;
+      border: none; /* Remove the conditional statement */
+      border-radius: 40%;
+      background-color: rgba(221, 158, 75, 0.945);
+      transition: 4s;
+      
+    }
+  
+    &::before {
+      left: -80%;
+      transform: translate3d(0, 5em, 0) rotate(-340deg);
+    }
+  
+    &::after {
+      right: -80%;
+      transform: translate3d(0, 5em, 0) rotate(390deg);
+    }
+  
+    &:hover,
+    &:focus {
+      color: white;
+  
+      &::before,
+      &::after {
+        transform: none;
+        background-color: rgba(255, 166, 0, 0.836);
+      }
+    }
+  }

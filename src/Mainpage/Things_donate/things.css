@@ -1,0 +1,32 @@
+.thingsh1{
+    color: rgba(255, 103, 0, 0.93);
+ /* margin-top: 189px; */
+  padding: 20px;
+ border: 2px solid rgb(240, 156, 135);
+text-align: center;
+outline: 5px dotted  rgb(135, 240, 229);
+}
+.thingswhole{
+    background-color: rgba(221, 253, 255, 0.603);
+    background:rgba(135, 240, 229, 0.26);;
+
+}
+.things .card{
+    margin: auto;
+}
+
+.things img{
+    width: 14rem;
+    border-radius: 40% 30%;
+    border: 2px rgb(245, 114, 7) solid;
+    margin: auto;box-shadow: rgba(87, 175, 175, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.things .card-body{
+    /* margin:0; */
+    padding: 10px;
+    background-color:transparent;
+    text-align: center;
+    font-size: large;
+    font-weight: 800;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}

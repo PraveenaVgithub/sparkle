@@ -1,0 +1,33 @@
+.ngoourh1{
+    color:  rgba(255, 103, 0, 0.93);
+ /* margin-top: 189px; */
+  padding: 20px;
+ border: 4px dashed rgb(240, 156, 135);
+text-align: center;
+/* outline: 2px double rgb(32, 13, 143); */
+}
+.ngoourwhole{
+    background-color: rgba(72, 87, 88, 0.603);
+    background:rgba(142, 156, 155, 0.26);;
+
+}
+.ngoour .card{
+    margin: auto;
+}
+
+.ngoour img{
+    width: 12rem;
+    /* border-radius: 40% 30%; */
+
+    border: 5px rgb(122, 111, 101) ;    border-style: double;
+    margin: auto;box-shadow: rgba(87, 175, 175, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.ngoour .card-body{
+    /* margin:0; */
+    padding: 10px;
+    background-color:transparent;
+    text-align: center;
+    font-size: large;
+    font-weight: 800;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}

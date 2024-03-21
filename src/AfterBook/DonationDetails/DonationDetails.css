@@ -1,0 +1,58 @@
+.ddbody{
+    /* background-color:#4ABDAC; */
+  background-image: url('https://img.freepik.com/free-vector/watercolor-emerald-background_23-2150266291.jpg?size=626&ext=jpg&ga=GA1.1.735520172.1710806400&semt=ais');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: contain; */
+    border: 2px solid rgb(235, 135, 202);
+    display: flex;
+    /* justify-content:space-between; */
+    /* height: 100vh; */
+}
+
+.ddmain{
+    background-color: rgba(252, 243, 243);
+    border-radius: 20px 13px;
+}
+
+.childside .ddsub h3{
+    /* background-color: darkcyan; */
+    font-family:'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:orangered;
+}
+.ch3{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 2px orangered dashed;color: #000000;
+}
+.ddchead{
+    text-align: center;
+}
+.ddsub{
+    justify-content: space-between;
+}
+.ddbutt button{
+    border: none;
+    background: transparent;
+    padding: 7px;
+}
+.ddbutt{
+    border: 2px solid;
+    /* width:20px; */
+}
+.ddbutt h5{
+    margin: auto 4px;
+}
+.ddnextbutt {
+text-align: center;
+ display: flex;
+ justify-content: center;
+ margin: auto;
+}
+.ddnextbutt button{
+   /* display: inline-block; */
+    /* right: -15px;bottom: -7px; */
+    background-color: rgb(235, 113, 14);
+    width: 96px;
+    height: 37px;
+    border-radius:  20px ; 
+}

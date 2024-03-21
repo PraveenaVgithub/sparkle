@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Kotta+One&display=swap');
+
+.thxbody {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-image:url('./thx.png')
+}
+
+.thx {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.thx h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    color: rgb(0, 60, 139);
+    /* margin-top: 180px; */
+    font-family: "Holtwood One SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.thx p {
+    font-family: "Kotta One", serif ;
+  font-weight: 400;
+  font-style:italic;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #0056b3;
+    line-height: 2;
+}
+
+.thxbutton {
+    display: inline-block;
+    background-color: #ff5100;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.thxbutton:hover {
+    background-color: #53ddf0;
+}

@@ -1,0 +1,58 @@
+ 
+  .ver {
+    max-width: 405px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    /* margin-top: 189px; */
+  }
+  .verbody {
+    font-family: Arial, sans-serif;
+    margin: auto;
+    /* padding: 0; */
+    background-image:url('./veri.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  
+  .verh1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+   .verlabel {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+   
+  .verinput {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15px;
+  }
+  
+  .verbutton {
+    background-color: #ff5e00;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .verbutton:hover {
+    background-color: #008fb3;
+  }
+  
+  .instructions {
+    font-size: 12px;
+    margin-top: 20px;
+    color: #aaa;
+  }

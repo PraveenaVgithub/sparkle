@@ -1,0 +1,14 @@
+.pickbody{
+    /* background-color:#4ABDAC; */
+  background-image: url('https://wallpapers.com/images/hd/pastel-orange-iff8cmfp56bhk6ek.jpg');
+    background-repeat: repeat;
+    background-size:contain ;
+    /* background-size: contain; */
+    /* border: 2px solid rgb(235, 135, 202); */
+    display: flex;
+    /* justify-content:space-between; */
+    height: 104vh;
+}
+.pick{
+    background-color: white;
+}

@@ -1,0 +1,67 @@
+.place {
+    max-width: 405px;
+    margin: 50px auto;
+    background-color: #fff;
+    /* padding: 30px; */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    /* margin-top: 189px; */
+  }
+  .placebody {
+    font-family: Arial, sans-serif;
+    margin: auto;
+    /* padding: 0; */
+    background-image:url('https://static.vecteezy.com/system/resources/previews/008/084/006/original/abstract-decorative-aesthetic-mint-green-background-free-vector.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+ 
+  .otp-form label {
+    margin-bottom: 5px;
+  }
+  
+  .otp-form input {
+    margin-bottom: 15px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .otp-form button {
+    padding: 5px 10px;
+    background-color: #00eeff;
+    color: #000;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .otp-form button:hover {
+    background-color: #f19150;
+  }
+  
+  /* CSS for the confirm button */
+  .confirmm-button {
+    display: block;
+    margin: 20px auto;
+    padding: 5px 10px;
+    background-color:rgb(0, 255, 255);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .confirmm-button:hover {
+    background-color: #218838;
+  }
+  
+  .placeh1 {
+    /* font-size: 24px; */
+    color: orangered;
+    margin-bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  

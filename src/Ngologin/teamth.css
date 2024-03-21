@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Rocher';
+    src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+  }
+  
+
+.teamth img{
+    width:50vw;
+    margin: 0;
+} 
+
+.teamth{
+    display: grid;
+    grid-template-columns: auto auto;
+background-image: url('https://img.freepik.com/free-vector/gradient-mint-background_23-2150282253.jpg');height: 100vh;
+background-repeat: no-repeat;background-size: cover;
+}
+
+/* 
+.teamclick button{
+    width: 120px;
+    height: 40px;
+margin: auto;
+
+  
+} */
+
+
+
+.button-42 {
+    margin: auto;width: 170px;
+    font-size: larger;
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+  height: 50px;
+  line-height: 40px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  /* width: 100%; */
+  z-index: 9;
+  border: 0;
+  transition: box-shadow .2s;
+}
+
+.button-42:hover {
+  box-shadow: rgba(16, 17, 17, 0.5) 0 3px 8px;
+}
+
+  .teamclick{
+    display: flex;
+    flex-direction: column;
+    /* align-items: start; */
+    /* background-color: black; */
+  }
+.teamclick h2{
+    text-align: center;
+    margin: auto;
+    font-family: 'Rocher';  font-size: 50px;
+
+
+}
+.teamclick h4{ text-align: center;
+    margin: auto;
+    font-family: 'Rocher';  font-size: 50px;}
+
+  

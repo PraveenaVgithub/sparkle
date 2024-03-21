@@ -1,0 +1,36 @@
+.h1mod{
+    color: rgba(255, 103, 0, 0.932);
+ margin-top: 189px;
+  padding: 20px;
+ border:dotted rgb(168, 54, 12);
+text-align: center;
+
+}
+.hw{
+    margin-top: 70px;
+    /* background-color: black; */
+    /* display: flex;
+    justify-content: space-evenly; */
+}
+.workbody{
+    background-color: rgba(245, 232, 220, 0.603);
+    margin-bottom: 30px;
+}
+.col{
+    width: 350px;
+    
+}
+.card{
+    background-color: transparent;
+    border: none;
+}
+.card-body{
+    /* background-color:  rgba(255, 103, 0, 0.93); */
+    background-color: 	rgb(135, 240, 229);;
+}
+.card-title{
+    color: rgba(255, 103, 0, 0.93);
+    margin-bottom: 12px;
+    text-align: center;
+}
+

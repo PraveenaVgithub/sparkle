@@ -1,0 +1,60 @@
+.date-time-input {
+    /* Style the container element */
+    display: flex;
+    flex-direction: column;
+background-color: rgb(237, 241, 241);
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .date-input,
+  .time-input {
+    /* Style both date and time inputs */
+    border: 1px solid #ccc;
+    padding: 5px; margin: 0;
+    width: 250px;
+    border-radius: 4px;
+  }
+  .pickp{
+    text-align: center;
+    font-size: larger;
+  
+  }
+  
+  .donation-form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 0 auto;
+    /* padding: 20px; */
+    /* border: 1px solid #ddd; */
+    border-radius: 5px;
+  }
+  
+  .donation-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .donation-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .donation-form input[type="text"],
+  .donation-form input[type="email"] {
+    width: 100%;
+    /* padding: 10px; */
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15px;
+  }
+  
+  .donation-form textarea {
+    width: 100%;
+    height: 100px;
+ }
+ .donation-form button{
+    margin: auto;
+    background-color: rgb(118, 248, 248);
+ }
