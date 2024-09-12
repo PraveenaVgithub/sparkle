@@ -1,43 +1,55 @@
-.h1why{
+.h1why {
     color: rgba(255, 103, 0, 0.932);
-  padding: 20px;
- border-bottom: rgb(12, 137, 168);
- border-style:groove;
-text-align: center;
-
-}
-.hwhy .card{
- width: 16rem;
- 
-}
-.whybody{
+    padding: 20px;
+    border-bottom: rgb(12, 137, 168);
+    border-style: groove;
+    text-align: center;
+  }
+  
+  .whybody {
     background-color: rgba(240, 237, 234, 0.603);
-
-}
-.hwhy img{
-    margin: auto;
-}
-.hwhy .col{
-    margin: auto;
-    
-}
-.hwhy .card{
+  }
+  
+  .hwhy .card {
+    width: 16rem; /* Fixed width for each card */
+    display: flex;
+    flex-direction: column;
     background-color: transparent;
     border: none;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    
- 
-}
-
-.hwhy .card-body{
-    margin: auto;
+    margin: 10px auto; /* Adds some margin to space out the cards */
+  }
   
-    background-color:lavenderblush;
-    font-family:monospace;
+  .hwhy .card-body {
+    flex-grow: 1;
+    background-color: lavenderblush;
+    font-family: monospace;
     color: black;
-}
-.hwhy .card-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .hwhy .card-title {
     color: rgba(255, 103, 0, 0.93);
-    margin-bottom: 12px;
+    margin-bottom: 15px;
     text-align: center;
-}
+  }
+  
+  .hwhy .card-text {
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .hwhy .imgg {
+    max-height: 200px;
+    object-fit: contain;
+    margin: auto;
+  }
+  
+  .hwhy .col {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center; /* Centers the card in the column */
+  }
+  
