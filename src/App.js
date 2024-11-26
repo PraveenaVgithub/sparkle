@@ -22,7 +22,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Firstpage />} />
+        <Route path="/sparkle" element={<Firstpage />} />
         <Route path="/userlogin" element={<UserLogin />} />
         <Route path="/usersignin" element={<UserSignin/>}/>
         <Route path="/ngologin" element={<Ngologin />} />
