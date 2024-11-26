@@ -13,7 +13,7 @@ const Aboutpage = () => {
 
         <p>Sparkleshare offers a seamless solution for decluttering your home and breathing new life
 
-             into neglected items. Donating your belongings to social organizations and recycling centers
+             into neglected item. Donating your belongings to social organizations and recycling centers
 
             brings multifaceted benefits. Firstly, it supports noble causes, enhancing societal welfare.
 
