@@ -11,7 +11,7 @@ const Aboutpage = () => {
 
         <h1>ABOUT US</h1>
 
-        <p>Sparkleshare offers a seamless solution for decluttering your home and breathing new life
+        <p>SparkleShare offers a seamless solution for decluttering your home and breathing new life
 
              into neglected item. Donating your belongings to social organizations and recycling centers
 
