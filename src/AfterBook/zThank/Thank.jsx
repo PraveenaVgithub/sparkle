@@ -21,7 +21,7 @@ const Thank = () => {
     our cause. Your support is a true inspiration, and it motivates us to keep
     striving for a brighter future. Thank you for being a part of our journey!
   </p>
-  <button className="thxbutton" onClick={()=>{navigate('/')}}>
+  <button className="thxbutton" onClick={()=>{navigate('/mainpage')}}>
     Back to Homepage
   </button>
 </div>
